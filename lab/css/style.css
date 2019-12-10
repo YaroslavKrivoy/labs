@@ -1,0 +1,24 @@
+#table tbody tr:nth-child(odd){
+    background: #cbd0cf;
+}
+
+/* Четные строки */
+#table tbody tr:nth-child(even){
+    background: #addcff;
+}
+
+#table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    width: 25%;
+    border: 1px solid black;
+}
+
+.void{
+    padding: 5px 0;
+    background-color: #fff;
+    border: none;
+}
